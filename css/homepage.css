@@ -157,7 +157,7 @@
 
 /* Page 1 CSS Start */
 #page1{
-  background:rgba(0, 0, 0, 0.2) url(../assets/bghome.jpeg);
+  background:rgba(0, 0, 0, 0.2) url(../assets/bghome.jpg);
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -176,7 +176,7 @@ font-size: 25px;
 }
  #getstarted{
      text-decoration: none;
-     color: white;
+     color:#222222;
      padding: 50px;
    } 
 #getstartedbutton{
@@ -200,6 +200,9 @@ text-align: center;
 box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 height: 85vh;
+margin-top: 20px;
+margin-left: 35px;
+margin-right: 35px;
  background-image: url(../assets/card-walk.jpg);
  background-position: center;
  background-repeat: no-repeat;
@@ -606,7 +609,4 @@ margin-left: -40px;
   }
 }
 
-/* justify content to center on homepage */
-.center{
-  align-items: center;
-}
+
