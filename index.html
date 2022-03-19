@@ -29,7 +29,7 @@
           
       </script>
     <title>TheHealthLytics</title>
-    <!-- Links Info -->
+    <!-- Links -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
@@ -42,10 +42,9 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
 <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
 <link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="./css/about.css">
 
 
-
-    
 </head>
 
 <div id="preloader">
@@ -85,7 +84,7 @@
 
     
 
-<!-- First Page Start and added content-->
+<!-- First Page Start -->
 <div id="page1" style="margin: 0;">
     <div class="container">
         <div class="text1">
@@ -131,6 +130,7 @@ By logging in into your account, the medical records you will be able to see inc
 <!-- Second Page End -->
 
 <!-- Third Page Start-->
+<section id="main-content">
 <div id="page3">
     <div class="jumbotron">
       <h1 class="display-4">Our Aim</h1>
@@ -139,10 +139,21 @@ By logging in into your account, the medical records you will be able to see inc
       <p>
         By logging in into your account, the medical records you will be able to see include but not limited to immunization, allergies, diagnoses, details about past surgeries, lab test results, treatments, medications, health insurance, and notes from doctors,</p>
     </div>
+    
     <p class="lead">
-      <a class="btn btn-primary btn-lg" href="./pages/about.html" role="button" id="learnmore">Learn more</a>
+      <a class="btn btn-primary btn-lg" href="#modal" aria-controls="modal" role="button" id="learnmore">Learn more</a>
     </p>
   </div>
+
+</section>
+  
+  <section id="modal" aria-role="dialog">
+    <div>
+    <h2>This modal just pops up </h2>
+    <p>It's also easy enough to close again, just by clicking this button</p>
+    <a href="#main-content" class="btn btn-primary btn-lg" aria-controls="modal">Close Modal</a>
+      </div>
+  </section>
   <!-- Third Page End -->
   
     <!-- Footer Start -->
