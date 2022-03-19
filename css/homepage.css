@@ -609,4 +609,7 @@ margin-left: -40px;
   }
 }
 
-
+/* justify content to center on homepage */
+.center{
+  align-items: center;
+}
