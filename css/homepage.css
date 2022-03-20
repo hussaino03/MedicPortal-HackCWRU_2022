@@ -22,7 +22,7 @@
 
 .layer1_class {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 10px solid #048023; /* Dark Green */
+    border-top: 7px solid #0e3172; /* Dark Green */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -148,7 +148,7 @@
     background: #f8f9fa;
   }
   #logoname{
-    margin-left: -110px;
+    margin-left: -180px;
     margin-top: -3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -176,11 +176,11 @@ font-size: 25px;
 }
  #getstarted{
      text-decoration: none;
-     color:#222222;
+     color:#fff9f9;
      padding: 50px;
    } 
 #getstartedbutton{
-    box-shadow: 0 0 3px #dfdddd;
+    box-shadow: 0 0 3px #000000;
 }
 .text1 h1{
   font-family: 'Kanit', sans-serif;
@@ -190,25 +190,20 @@ font-size: 25px;
 
 /* Page 2 CSS Start */
 #page2{
-  height: 100vh;
   width: 100vw;
 }
 #watermessage{
 text-align: center;
+margin-bottom: 0px;
 }
 .card {
 box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 height: 85vh;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 35px;
-margin-right: 35px;
  background-image: url(../assets/card-walk.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- border-radius: 20px;
 
 }
 .card:hover {
@@ -249,7 +244,7 @@ color: rgb(255, 255, 255);
 
 /* Page 3 CSS Start */
 #page3{
-  background: url(../assets/bg2.jpg);
+  background-image: url(../assets/bg2.jpg);
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -261,7 +256,7 @@ position: relative;
 
 }
 .jumbotron{
-opacity: 0.5;
+opacity: 0.75;
 }
 #learnmore{
 position: relative;
